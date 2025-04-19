@@ -1,16 +1,56 @@
-# fashion_app
+# 👗 Fashion & Hairstyle Recommendation App
 
-A new Flutter project.
+An AI-powered mobile app that recommends outfits and hairstyles based on user-uploaded wardrobe items and face shape detection. Built using Flutter, Django, and deep learning models for real-time recommendations.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Key Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📷 Face detection and face shape classification
+- 👕 Upload wardrobe images for personalized outfit suggestions
+- ✂️ AI-powered hairstyle recommendations based on face shape
+- 🔄 Dynamic recommendations with user feedback (like/dislike)
+- 🔐 User authentication via OAuth & email/password
+- 🔄 Real-time data sync with Django backend
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+### Frontend
+- Flutter (cross-platform)
+- Google ML Kit (for face detection)
+
+### Backend
+- Django + Django REST Framework
+- PostgreSQL / SQLite (development)
+- JWT / OAuth2 Authentication
+
+### AI/ML
+- Pre-trained CNN for image embeddings
+- K-Means clustering
+- Custom CNN model for face shape classification
+- Item-based Collaborative Filtering (recommendations)
+
+---
+
+## 📲 Screenshots
+
+> *To be added soon*
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK
+- Python 3.10+
+- pip + virtualenv
+
+### Setup Flutter App
+
+```bash
+git clone https://github.com/Hadi11223344/Fashion-Recommendation-App.git
+cd Fashion-Recommendation-App
+flutter pub get
+flutter run
